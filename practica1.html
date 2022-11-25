@@ -6,26 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card Edgar</title>
     <style>
-        section{
+        section {
             width: 100%;
             display: flex;
             justify-content: center;
         }
-        .Card{
-            width: 500px;
-            height: 500px;
+        .Card {
+            width: 300px;
+            height: 300px;
             background: black;
             border-radius: 20px;
+            overflow: hidden;
         }
-        .Card img{
+        .Card img {
             width: 100%;
+            height: 40%;
+            border-radius: 50px;
+            
+            
+        }
+        .Card p {
+            text-align: center;
+            color:grey
+        }
+        .Card img:nth-child(2) {
+            width: 20%;
+            height: 20%;
+            display: flex;
+            position: relative;
+            margin: 0 auto auto auto;
+            border-radius: 100%;
+            
         }
     </style>
 </head>
 <body>
     <section>
         <div class="Card">
-            <img src="C:\Users\evillalobos\Documents\Desarrollo Web\HTML - Personal site\images\edgar.png" alt="">
+            <img src="https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            <img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <p>Biker: Died</p>
+            <p>Nombre: Edgar Villalobos</p>
         </div>
     </section>
 </body>
